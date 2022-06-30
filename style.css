@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap');
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 973px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.header{
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header__wrapper{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.tim_da_da-ya{
+    position: absolute;
+    right: 150px;
+    top: 27px;
+}
+
+.nav:before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 60px;
+    height: 1px;
+    background: black;
+    
+    
+}
+
+.nav__link{
+    line-height: 22px;
+    font-weight: 700;
+    color: #828282;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.nav__link:hover{
+    color: #070707;
+}
+
+.header__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__name{
+    margin-top: 40px;
+
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 59px;
+
+}
+
+.header__text{
+    margin-top: 95px;
+
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__lang{
+    margin-top: 70px;
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header__img-group{
+    display: flex;
+    justify-content: center;
+
+}
+
+.header__img-block{
+    margin-top: 50px;
+    height: 387px;
+    overflow: hidden;
+
+}
+
+.header__img{
+    height: 100%;
+    width: auto;
+}
+
+/* About */
+.about{
+    height: 506px;
+    margin-top: 105px;
+    background-color: #F6F6F6;
+}
+
+.about__wrapper{
+    padding-top: 120px;
+}
+
+.about__heading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.about__text{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.about__text:last-child{
+    margin-bottom: 0px;
+}
+/* Skills */
+.skills{
+    height: 610px;
+}
+
+.skills__heading{
+    margin-top: 91px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.skills__text{
+    margin-top: 69px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.skills__group{
+    display: flex;
+    margin-top: 84px;
+    justify-content: space-between;
+}
+
+.skills__img-block{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__img-text{
+    width: 120px;
+    height: 34px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.skills__star-block{
+    margin-top: 15px;
+}
+
+/* Portf */
+.portf{
+    height: 2253px;
+    background-color: #F6F6F6;
+}
+
+.portf__heading{
+    padding-top: 113px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.portf__img-block{
+    margin-top: 47px;
+}
+
+.portf__link-block{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.portf__link{
+    color: #070707;
+}
+
+/* Footer */
+.footer{
+    height: 520px;
+}
+
+.footer__heading{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.footer__text{
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn__block{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.footer__soc{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 86px;
+}
+
+.footer__soc-a{
+    margin-right: 62px;
+    text-decoration: none;
+}
+
+.footer__suptext{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+
+
+
+
+
+
+
+
+
+
